@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navigation />
-      <h1>Hi World</h1>
+      
       <Player />
       
     </>
