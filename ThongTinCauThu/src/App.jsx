@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <Navigation />
+      <h1>Hi</h1>
       <Player />
+      
     </>
   )
 }
