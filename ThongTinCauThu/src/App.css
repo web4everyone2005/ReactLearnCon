@@ -1,0 +1,56 @@
+/* Navigation styling */
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+nav a.active {
+  color: #4CAF50;
+}
+
+/* Custom styling for Bootstrap cards */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+  border-color: #333;
+}
+
+/* Custom responsive breakpoints if needed */
+@media (max-width: 576px) {
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    font-size: 0.9rem;
+  }
+}
